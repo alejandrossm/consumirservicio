@@ -1,0 +1,7 @@
+{
+  "name": "consumirservicio",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
