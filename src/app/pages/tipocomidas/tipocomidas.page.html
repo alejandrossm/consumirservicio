@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button text="volver" mode="ios"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Categoria Carnes</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content class="ion-padding">
+  <ion-list *ngFor="let comida of comidas" >
+    <ion-card>
+      <ion-card-header>
+        <ion-card-subtitle>id: {{comida.idMeal}}</ion-card-subtitle>
+        <ion-card-title>{{comida.strMeal}}</ion-card-title>
+      </ion-card-header>
+      <ion-img src="{{comida.strMealThumb}}"></ion-img>
+      <ion-card-content>
+        Ver Receta
+      </ion-card-content>
+    </ion-card>
+  </ion-list>
+</ion-content>
