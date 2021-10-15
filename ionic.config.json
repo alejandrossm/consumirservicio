@@ -1,7 +1,8 @@
 {
   "name": "consumirservicio",
   "integrations": {
-    "capacitor": {}
+    "capacitor": {},
+    "cordova": {}
   },
   "type": "angular"
 }
